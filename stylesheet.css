@@ -2,9 +2,40 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:rgba(0, 0, 0, 0.5);
+    position:sticky;
+    top:0;
+}
 
 
+.navbar ul{
+    display : flex;
+    list-style:none ;
+    margin: 20px 0px;
+}
 
- 
+.navbar un li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 35px;
+}
 
+.navbar ul li a:hover{
+    color:blue;
+    text-shadow: 0 0 10px green;
+}
