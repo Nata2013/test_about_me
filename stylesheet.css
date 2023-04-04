@@ -1,41 +1,83 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&display=swap');
-
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
+             /*Navbar*/
 .navbar{
     display:flex;
     justify-content: center;
     align-items:center;
     background-color:rgba(0, 0, 0, 0.5);
     position:sticky;
-    top:0;
+    top: 0;
 }
-
 
 .navbar ul{
     display : flex;
-    list-style:none ;
+    list-style: none ;
     margin: 20px 0px;
+
 }
 
-.navbar un li{
+.nav ul li{
     font-family: century;
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-.navbar ul li a{
+
+.navbar ul li a {
     text-decoration: none;
     color:white;
-    padding: 10px 35px;
+    padding: 8px 25px;
+    transition: all .5s  ease;
 }
 
 .navbar ul li a:hover{
-    color:blue;
-    text-shadow: 0 0 10px green;
+    background-color: white;
+    color:black;
+    box-shadow: 0 0 10px rgb(105, 81, 174);
 }
+
+
+
+
+/* Home section -> image */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height:840px;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+}
+    
+#home::before{
+    content :"";
+    position :absolute;
+    top:0;
+    right:0;
+    background: url('https://t3.ftcdn.net/jpg/02/18/45/30/360_F_218453068_WRjhtH9MzO33Cb19K8acZI2VZvXueQ70.jpg') no-repeat center center/cover;
+    height:900px;
+    width: 100%;
+    z-index:-1;   
+}
+
+/*Natali Sulcer -box*/
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    
+
+}
+
+
+
+
+
