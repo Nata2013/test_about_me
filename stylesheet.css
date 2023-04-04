@@ -65,19 +65,79 @@
     background: url('https://t3.ftcdn.net/jpg/02/18/45/30/360_F_218453068_WRjhtH9MzO33Cb19K8acZI2VZvXueQ70.jpg') no-repeat center center/cover;
     height:900px;
     width: 100%;
-    z-index:-1;   
+    z-index:-1;              
 }
 
-/*Natali Sulcer -box*/
+/*Natali Sulcer -name*/
 .main{
     display: flex;
     flex-direction: column;
-    border: 3px solid white;
+    position:absolute;
+    top:60%;
     
+}
 
+.headings{
+    font-family:century;
+    font-weight: bold;
+    font-size: 3rem;
+    padding:0px ;
+   
+  
 }
 
 
+/* ABOUT ME  section*/
 
+#about{
+    display:flex;
+    flex-direction: column;  
+    box-sizing: border-box; 
+    padding:20px;
+    margin-bottom: 50px;
+    background-color:rgb(0,0,0,0.5); 
+    text-align: center;
+}
 
+.
+#pic{
+    dispaly:flex;
+   
 
+}
+#pic img{
+    width:575px;
+    height : 400px;
+
+}
+
+#intro{
+    display:flex;
+    flex-direction:column;
+    text-align: justify;
+    padding :0px;
+}
+#intro h2{
+    font-size: 2rem;
+}
+
+/*Hobbies section*/
+
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+.gallery{
+    display:flex;
+   flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img{
+    width: 360px;
+    height:340px;
+
+}
