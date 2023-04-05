@@ -6,10 +6,6 @@
     box-sizing:border-box;
 }
 
-/*html{
-    scroll-behavior: smooth;
-}*/
-
              /*Navbar*/
 .navbar{
     display:flex;
@@ -147,8 +143,13 @@
     height:340px;
 }
 
-
-
+ol li{
+    list-style-type:decimal;
+    color:blue;
+}
+p{
+    color:aliceblue
+}
 
 
 
