@@ -70,7 +70,7 @@
     z-index:-1;              
 }
 
-/*Natali Sulcer -name*/
+/*Natali Sulcer - my name*/
 .main{
     display: flex;
     flex-direction: column;
@@ -97,8 +97,7 @@ h1{
     background: rgb(118, 119, 119);
 }
 #pic{
-    dispaly:flex;
-    background-color: rgb(98, 60, 10);
+     background-color: rgb(98, 60, 10);
 }
    
 
